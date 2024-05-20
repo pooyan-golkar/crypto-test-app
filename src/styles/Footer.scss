@@ -1,0 +1,26 @@
+$secondary-color: #aeb8c4;
+$primary-color: #4c5968;
+.wrapper{
+  .footer {
+    .container{
+      display: flex;
+      background-color: #fff;
+      justify-content: space-around; 
+      align-items: center;
+      padding: 23px 15px;
+      .footer-button {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        color: $secondary-color;
+        transition: all ease-in-out 0.3s;
+        &:hover {
+          cursor: pointer;
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}
