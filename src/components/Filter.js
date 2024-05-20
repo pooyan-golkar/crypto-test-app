@@ -4,7 +4,6 @@ import ContentTest from './ContentTest';
 const Filter = () => {
   const [activeFilter, setActiveFilter] = useState('day');
   const filters = ['day', 'week', 'month', 'year'];
-
   const handleFilterChange = (newFilter) => {
     setActiveFilter(newFilter);
   };

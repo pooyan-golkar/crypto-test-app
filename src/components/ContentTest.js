@@ -62,7 +62,6 @@ const renderCustomDot = (props) => {
 const ContentTest = ({ filter }) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
-
   const fetchAndPrepareData = useCallback(async () => {
     setLoading(true);
     const rawData = await fetchData(filter);

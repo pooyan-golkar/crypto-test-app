@@ -8,7 +8,6 @@ const dwIcon = require('../assets/images/down-arrow.png');
 
 function Content() {
   const [expanded, setExpanded] = useState(false);
-
   const toggleExpand = () => {
     setExpanded(!expanded);
   };
